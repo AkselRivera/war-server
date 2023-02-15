@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 8080;
 
 const storage = [];
 const visit = [];
@@ -14,13 +14,16 @@ app.get("/", (req, res) => {
 });
 
 app.post("/result", (req, res) => {
-  storage.push(req.body);
+  storage.push({ user: req.ip?.user, pass: req.body?.pass });
   res.send("What is this endpoint doing? Does it save something?");
 });
 
 app.get("/result-server", (req, res) => {
+  console.log(storage);
   res.send(
-    `<h1>Results: </h1> <p>users: </p> ${storage}  <p>IPs: </p>${visit} `
+    `<h1>Results: </h1> <p>users: </p> ${storage.map((item) =>
+      JSON.stringify(item)
+    )}  <p>IPs: </p>${visit} `
   );
 });
 
