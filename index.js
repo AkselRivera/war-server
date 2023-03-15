@@ -22,7 +22,7 @@ app.post("/api", (req, res) => {
   console.log(coords);
   console.log(timestamp);
   console.log(timezone);
-  res.status.send("Searching");
+  res.status(200).send("Searching");
 });
 
 app.post("/result", (req, res) => {
