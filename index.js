@@ -1,5 +1,6 @@
 const express = require("express");
 const requestIp = require("request-ip");
+const path = require("path");
 const app = express();
 const port = 8080;
 
@@ -8,10 +9,20 @@ const visit = [];
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public", "foodhut")));
 
 app.get("/", (req, res) => {
   visit.push(requestIp.getClientIp(req));
-  res.send("Hello CX Devs you found me!");
+  res.sendFile(path.join(__dirname, "public", "foodhut", "index.html"));
+  // res.send("Hello CX Devs you found me!");
+});
+
+app.post("/api", (req, res) => {
+  const { coords, timestamp, timezone } = req.body;
+  console.log(coords);
+  console.log(timestamp);
+  console.log(timezone);
+  res.status.send("Searching");
 });
 
 app.post("/result", (req, res) => {
