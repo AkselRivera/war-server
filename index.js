@@ -18,10 +18,11 @@ app.get("/", (req, res) => {
 });
 
 app.post("/api", (req, res) => {
-  const { coords, timestamp, timezone } = req.body;
-  console.log(coords);
-  console.log(timestamp);
-  console.log(timezone);
+  // const { coords, timestamp, timezone } =
+  console.log(req.body);
+  // console.log(coords);
+  // console.log(timestamp);
+  // console.log(timezone);
   res.status(200).send("Searching");
 });
 
