@@ -1,0 +1,1 @@
+cmd /K "curl parrot.live"
